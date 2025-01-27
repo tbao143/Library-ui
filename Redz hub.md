@@ -20,9 +20,15 @@ Window:AddMinimizeButton({
 })
 ```
 
-
-
-
+## Discord invite
+```lua
+Tab1:AddDiscordInvite({
+    Name = "Name Hub",
+    Description = "Join server",
+    Logo = "rbxassetid://18751483361",
+    Invite = "https://discord.com/invite/Dmg8EJ2neK",
+})
+```
 
 
 ## Tab
