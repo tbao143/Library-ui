@@ -90,6 +90,7 @@ end})
 ```lua
 local Toggle1 = Tab1:AddToggle({
   Name = "Toggle",
+  Description = "This is a <font color='rgb(88, 101, 242)'>Toggle</font> Example",
   Default = false 
 })
 Toggle1:Callback(function(value)
