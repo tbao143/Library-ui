@@ -89,11 +89,14 @@ end})
 ## Toggle
 ```lua
 local Toggle1 = Tab1:AddToggle({
-  Name = "Speed",
-  Description = "Idk",
-  Default = false
+  Name = "Toggle",
+  Default = false 
 })
+Toggle1:Callback(function(value)
+ 
+end)
 ```
+
 ## Sliders
 ```lua
 Tab1:AddSlider({
