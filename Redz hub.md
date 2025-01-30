@@ -36,7 +36,7 @@ Tab1:AddDiscordInvite({
 local Tab = Window:MakeTab({"Um", "cherry"})
 ```
 
-## Codes for change theme of redz lib
+## Set theme
 Dark
 ```lua
   redzlib:SetTheme("Dark")
@@ -125,5 +125,3 @@ local Dropdown = Tab2:AddDropdown({
   end
 })
 ```
-## Test script fun 
-![Image Alt](https://github.com/tbao143/Library-ui/blob/fde12da5b8e3be4511125eac98eb24c968f55228/0ae1428d807b40f19e3f6ce750ff7034.png)
