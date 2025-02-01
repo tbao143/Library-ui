@@ -82,7 +82,7 @@ local Paragraph = Tab2:AddParagraph({"Paragraph", "This is a Paragraph\nSecond L
 ```
 ## Button
 ```lua
-Tab1:AddButton({"Print", function()
+Tab1:AddButton({"Print", function(Value)
 print("Hello World!")
 end})
 ```
@@ -93,7 +93,7 @@ local Toggle1 = Tab1:AddToggle({
   Description = "This is a <font color='rgb(88, 101, 242)'>Toggle</font> Example",
   Default = false 
 })
-Toggle1:Callback(function(value)
+Toggle1:Callback(function(Value)
  
 end)
 ```
@@ -107,7 +107,7 @@ Tab1:AddSlider({
   Increase = 1,
   Default = 16,
   Callback = function(Value)
-  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+  
   end
 })
 ```
@@ -120,6 +120,18 @@ local Dropdown = Tab2:AddDropdown({
   Options = {"one", "two", "three"},
   Default = "two",
   Flag = "dropdown teste",
+  Callback = function(Value)
+    
+  end
+})
+```
+
+## Textbox
+```lua
+Tab1:AddTextBox({
+  Name = "Name item",
+  Description = "1 Item on 1 Server", 
+  PlaceholderText = "item only",
   Callback = function(Value)
     
   end
