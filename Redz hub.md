@@ -33,7 +33,7 @@ Tab1:AddDiscordInvite({
 
 ## Tab
 ```lua
-local Tab = Window:MakeTab({"Um", "cherry"})
+local Tab1 = Window:MakeTab({"Um", "cherry"})
 ```
 
 ## Set theme
@@ -51,16 +51,16 @@ Purple
 ```
 ## Start tab
 ```lua
-Window:SelectTab(Tab2)
+Window:SelectTab(Tab1)
 ```
 ## Section
 ```lua
-local Section = Tab2:AddSection({"Section"})
+local Section = Tab1:AddSection({"Section"})
 ```
 
 ## Paragraph
 ```lua
-local Paragraph = Tab2:AddParagraph({"Paragraph", "This is a Paragraph\nSecond Line"})
+local Paragraph = Tab1:AddParagraph({"Paragraph", "This is a Paragraph\nSecond Line"})
 ```
 ## Dialog
 ```lua
@@ -114,7 +114,7 @@ Tab1:AddSlider({
 
 ## Dropdown
 ```lua
-local Dropdown = Tab2:AddDropdown({
+local Dropdown = Tab1:AddDropdown({
   Name = "Players List",
   Description = "Select the <font color='rgb(88, 101, 242)'>Number</font>",
   Options = {"one", "two", "three"},
