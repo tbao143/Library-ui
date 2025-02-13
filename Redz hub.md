@@ -86,7 +86,7 @@ Tab1:AddButton({"Print", function(Value)
 print("Hello World!")
 end})
 ```
-## Toggle
+## Toggle 1
 ```lua
 local Toggle1 = Tab1:AddToggle({
   Name = "Toggle",
@@ -97,6 +97,21 @@ Toggle1:Callback(function(Value)
  
 end)
 ```
+
+
+
+## Toggle 2
+```lua
+Tab1:AddToggle({
+    Name = "Toggle",
+    Default = false,
+    Callback = function(v)
+
+    end
+})
+```
+
+
 
 ## Sliders
 ```lua
