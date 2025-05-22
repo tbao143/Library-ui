@@ -877,6 +877,7 @@ local redzlib = {
 			["wind"] = "rbxassetid://10747382750",
 			["wraptext"] = "rbxassetid://10747383065",
 			["wrench"] = "rbxassetid://10747383470",
+			["gun"] = "rbxassetid://82664879324543",
 			["x"] = "rbxassetid://10747384394",
 			["xcircle"] = "rbxassetid://10747383819",
 			["xoctagon"] = "rbxassetid://10747384037",
