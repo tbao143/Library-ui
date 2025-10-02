@@ -1,5 +1,5 @@
 Source library redz hub ui
-- Blox Fruits
+- Blox Fruits Script 
 ```lua
 local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
