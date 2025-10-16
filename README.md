@@ -8,3 +8,8 @@ local Settings = {
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/Scripts/refs/heads/main/main.luau"))(Settings)
 ```
+
+# Tbao Hub
+
+# [Discord](https://discord.gg/bYb3EweNk7)
+# [YouTube](https://youtube.com/@thaibao7444tbao?si=rwpClqEDqZC8VgHn)
